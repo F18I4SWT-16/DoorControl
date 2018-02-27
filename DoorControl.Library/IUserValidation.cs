@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace DoorControl.Library
 {
-    public class Class1
+    public interface IUserValidation
     {
-
+        bool ValidateEntryReuest(int id);
     }
 }

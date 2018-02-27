@@ -4,9 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DoorControl.Test.Unit
+namespace DoorControl.Library
 {
-    public class Class1
+    public interface IDoor
     {
+        void Open();
+        void Close();
     }
 }

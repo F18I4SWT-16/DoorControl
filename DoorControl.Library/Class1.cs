@@ -8,5 +8,6 @@ namespace DoorControl.Library
 {
     public class Class1
     {
+
     }
 }
